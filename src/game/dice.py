@@ -7,7 +7,6 @@ import random
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 from src.db.database import get_user, update_points
 
-# --- Paleta de colores estilo Balatro ---
 BG_COLOR = (15, 25, 35)
 PANEL_COLOR = (25, 40, 55)
 ACCENT_COLOR = (229, 48, 83)
