@@ -6,7 +6,7 @@ import hashlib
 
 DB_CONFIG = {
     "host": "127.0.0.1",
-    "user": "root",  # <-- CORREGIDO
+    "user": "root",  # <-- predeterminados
     "password": "",  # tu contraseña de MySQL, si tienes una
     "database": "lnmgia_ucama_isc03mb"
 }
