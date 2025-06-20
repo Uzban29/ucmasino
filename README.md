@@ -10,7 +10,7 @@ Este repositorio contiene un juego de dados tipo casino desarrollado en Python, 
 - **Mesa de juego interactiva** creada con [Pygame](https://www.pygame.org/news).
 - **Conexión a base de datos MySQL** usando `mysql.connect` para gestionar usuarios y puntajes.
 
----
+
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -19,7 +19,6 @@ Este repositorio contiene un juego de dados tipo casino desarrollado en Python, 
 - [Pygame](https://www.pygame.org/news) - Interfaz gráfica para el juego
 - [MySQL Connector](https://dev.mysql.com/doc/connector-python/en/) - Conexión a base de datos
 
----
 
 ## 📁 Estructura del Proyecto
 
@@ -51,7 +50,7 @@ main.py           # Ejecutable principal
 
 3. Configura tu base de datos MySQL según las instrucciones en `src/db/`.
 
----
+
 
 ## 🕹️ Uso
 
