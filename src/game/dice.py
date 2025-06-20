@@ -183,11 +183,3 @@ def main(usuario):
         dibujar_ui()
         pygame.display.flip()
         clock.tick(30)
-
-if __name__ == "__main__":
-    # Inicia sesión como admin por defecto
-    usuario = "admin"
-    # Si no existe, lo crea con 1000 puntos
-    if not get_user(usuario):
-        add_user(usuario, "123", "admin@casino.com")
-    main(usuario)
