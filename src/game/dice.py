@@ -114,6 +114,13 @@ def draw_button(surface, rect, text, font, bg_color, fg_color, hover=False):
 
 def main(usuario):
     pygame.init()
+     
+    pygame.mixer.init()
+    music_path = os.path.join("src", "assets", "background.mp3")  # Cambiaarchivo es diferente
+    if os.path.exists(music_path):
+        pygame.mixer.music.load(music_path)
+        pygame.mixer.music.play(-1) 
+
     WIDTH, HEIGHT = 1600, 950
     screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)
     pygame.display.set_caption("UCMASINO - Dados Casino")
